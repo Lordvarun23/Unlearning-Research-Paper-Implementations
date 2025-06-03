@@ -7,13 +7,13 @@ A collection of reproducible implementations of state-of-the-art research papers
 
 Machine unlearning is an emerging area focused on enabling models to selectively forget specific data points without the need for full retraining. This capability is increasingly important for complying with privacy regulations such as GDPR and CCPA, and for improving data lifecycle management in AI systems.
 
-This repository currently includes an implementation of the **Bad Teaching** unlearning method applied on the **CIFAR-Super20** dataset. The method leverages an *incompetent teacher* to induce forgetting in a student model while preserving knowledge from a competent teacher.
+## Papers Implemented ✅
 
-### Planned Additions
-
-- Amnesiac Unlearning  
-- UNSIR  
-- SSD  
-- Other recent and impactful unlearning algorithms
+- [x] **Can Bad Teaching Induce Forgetting? Unlearning in Deep Networks using an Incompetent Teacher**  
+      (Chundawat et al., AAAI 2023)  
+- [ ] Amnesiac Unlearning  
+- [ ] UNSIR  
+- [ ] SSD  
+- [ ] (Add more here...)
 
 ---
