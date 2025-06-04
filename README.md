@@ -13,7 +13,7 @@ Machine unlearning is an emerging area focused on enabling models to selectively
       (Chundawat et al., AAAI 2023)  
 - [ ] Amnesiac Unlearning  
 - [ ] UNSIR  
-- [x] SSD  
+- [x] **Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening**(Jack Foster et al., AAAI 2024)  
 - [ ] (Add more here...)
 
 ---
