@@ -9,11 +9,10 @@ Machine unlearning is an emerging area focused on enabling models to selectively
 
 ## Papers Implemented ✅
 
-- [x] **Can Bad Teaching Induce Forgetting? Unlearning in Deep Networks using an Incompetent Teacher**  
-      (Chundawat et al., AAAI 2023)  
+- [x] **Can Bad Teaching Induce Forgetting? Unlearning in Deep Networks using an Incompetent Teacher**  - Chundawat et al. - AAAI 2023
 - [ ] Amnesiac Unlearning  
 - [ ] UNSIR  
-- [x] **Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening**(Jack Foster et al., AAAI 2024)  
+- [x] **Fast Machine Unlearning Without Retraining Through Selective Synaptic Dampening (SSD)**  - Jack Foster et al. - AAAI 2024
 - [ ] (Add more here...)
 
 ---
