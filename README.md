@@ -16,3 +16,18 @@ Machine unlearning is an emerging area focused on enabling models to selectively
 - [ ] (Add more here...)
 
 ---
+## 📊 Benchmark Results [Unlearning Rocket Subclass in CIFAR20 Dataset with ResNet18 Model]
+
+| Unlearning Method                                      | Retain Accuracy (%) | Forget Accuracy (%) | Time Taken for Unlearning (s) |
+|:-------------------------------------------------------|:--------------------|:--------------------|:------------------------------|
+| Trained Model                                          | 80.2                | 82.5                | NA                            |
+| BadTeacher                                             | 81.7                | 3.2                 | 40                            |
+| SSD                                                    | 79.2                | 0.02                | 110                           |
+| Amnesiac Unlearning                                    | -                   | -                   | -                             |
+| UNSIR                                                  | -                   | -                   | -                             |
+
+### 📌 Notes:
+- **Retain Accuracy**: Accuracy on the retained test set (data the model should remember)
+- **Forget Accuracy**: Accuracy on the forget set (data the model should forget — lower is better)
+- **Time Taken**: Total time (in seconds) for the unlearning process only (excluding initial training)
+
